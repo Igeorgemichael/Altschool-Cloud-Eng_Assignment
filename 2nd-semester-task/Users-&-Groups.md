@@ -28,7 +28,7 @@ Inside the sudoers file, add the following line to grant sudo privileges to the 
    ```
 
    Save and exit the sudoers file.
-<img width="783" alt="Screenshot 2023-10-06 at 2 57 09 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/875f68cd-939f-430e-9417-a30cb1e4aa4b">
+<img width="700" alt="Screenshot 2023-10-06 at 2 57 09 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/875f68cd-939f-430e-9417-a30cb1e4aa4b">
 
 Create a user in each of the three groups - `adminuser`, `supportuser`, and `engineeruser`.
 
@@ -50,18 +50,18 @@ Create a user in each of the three groups - `adminuser`, `supportuser`, and `eng
  **Generate SSH Keys for the Admin User:**
 
    Generate SSH keys for the `adminuser` in the `admin` group.
-<img width="726" alt="Screenshot 2023-10-06 at 3 48 56 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b8a3af0e-c091-4c7a-893b-8976b414812f">
+<img width="700" alt="Screenshot 2023-10-06 at 3 48 56 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b8a3af0e-c091-4c7a-893b-8976b414812f">
 
  **Submit Contents of Required Files:**
  
    - sudo cat /etc/passwd
-<img width="782" alt="Screenshot 2023-10-06 at 3 43 16 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/f112f4d7-3691-4141-8f40-bdbd2865cd92">
+<img width="700" alt="Screenshot 2023-10-06 at 3 43 16 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/f112f4d7-3691-4141-8f40-bdbd2865cd92">
 
    - sudo cat /etc/group
-<img width="783" alt="Screenshot 2023-10-06 at 3 45 54 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/3232eac2-06c5-41dc-95cd-3c1889654168">
+<img width="700" alt="Screenshot 2023-10-06 at 3 45 54 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/3232eac2-06c5-41dc-95cd-3c1889654168">
 
    - sudo cat /etc/sudoers
-<img width="784" alt="Screenshot 2023-10-06 at 4 06 30 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/5301bb4b-34ca-4baa-8506-bd8be4b6ca3c">
+<img width="700" alt="Screenshot 2023-10-06 at 4 06 30 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/5301bb4b-34ca-4baa-8506-bd8be4b6ca3c">
 
 
 
