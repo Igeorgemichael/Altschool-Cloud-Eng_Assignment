@@ -2,7 +2,7 @@
 
 # Altschool-Cloud-Eng-Task-&-Assignment
 
-This repo contains documentations of all my [Altschool](https://engineering.altschoolafrica.com/programs/cloud-engineering) cloud engineering 
+This repo contains documentation of all my [Altschool](https://engineering.altschoolafrica.com/programs/cloud-engineering) cloud engineering 
 
 `Tasks/Exercise`
 
