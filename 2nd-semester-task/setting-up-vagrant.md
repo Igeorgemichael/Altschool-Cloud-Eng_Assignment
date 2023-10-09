@@ -1,6 +1,6 @@
 # AltSchool Cloud-Engineering Exercises
 
-## [Exercise] 1
+## [Exercise]() 1
 ### Task: 
 * Setup Ubuntu 20.04 LTS on your local machine using Vagrant
 ### Instruction: 
@@ -8,7 +8,7 @@
 - Once the machine is up, run ifconfig and share the output in your submission along with your Vagrant file in a folder for this exercise.
 ---
 
- ### [Solution] 1
+ ## [Solution]() 1
 
  To set up Ubuntu 20.04 LTS on your local machine using Vagrant with a private network set to DHCP, follow these steps:
 
@@ -25,9 +25,8 @@
 
  - Initialize a new Vagrant environment in the directory you just created.
 
-   ```bash
-   vagrant init ubuntu/focal64
-   ```
+     `vagrant init ubuntu/focal64`
+
  - Below is the Vagrantfile
 ``` ruby
      # -*- mode: ruby -*-
