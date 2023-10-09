@@ -1,4 +1,4 @@
-## [Exercise] 3
+## [Exercise]() 3
 ### Task:
 * Create 3 groups – admin, support & engineering and add the admin group to sudoers. 
 * Create a user in each of the groups. 
@@ -6,7 +6,7 @@
 ### Instruction:
 - [ ] Submit the contents of /etc/passwd, /etc/group, /etc/sudoers
 ---
- ### [Solution] 3
+ ## [Solution]() 3
 
  **Create Groups and Add Admin Group to sudoers:**
 
