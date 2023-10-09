@@ -1,4 +1,4 @@
-## [Exercise] 2
+## [Exercise]() 2
 ### Task: 
 * Research online for 10 more linux commands aside the ones already mentioned in this module. Submit using your altschool-cloud-exercises project, explaining what each command is used for with examples of how to use each and example screenshots of using each of them.
 
@@ -6,7 +6,7 @@
 - Submit your work in a folder for this exercise in your altschool-cloud-exercises project. You will need to learn how to embed images in markdown files.
 ---
 
-### [Solution] 2
+### [Solution]() 2
  Certainly! Here are 10 more Linux commands, along with explanations of what they are used for:
 
 1. **`ps` (Process Status):**
