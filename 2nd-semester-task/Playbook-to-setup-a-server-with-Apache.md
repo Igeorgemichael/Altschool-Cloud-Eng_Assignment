@@ -1,3 +1,4 @@
+## [Exercise]() 8
 ### Task:
 * Create an Ansible Playbook to setup a server with Apache
 * The server should be set to the Africa/Lagos Timezone
@@ -13,7 +14,7 @@ echo date("F d, Y h:i:s A e", time());
 - Submit the Ansible playbook, the output of `systemctl status apache2` after deploying the playbook and a screenshot of the rendered page
 ---
 
-## [Solution] 8
+## [Solution]() 8
 
 To set up a server with Apache, configure the Africa/Lagos timezone, and host an index.php file with the specified content,
 
