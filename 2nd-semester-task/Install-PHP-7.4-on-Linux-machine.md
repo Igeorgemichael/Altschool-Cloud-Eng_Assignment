@@ -1,4 +1,4 @@
-## [Exercise] 4
+## [Exercise]() 4
 ### Task: 
 * Install PHP 7.4 on your local linux machine using the ppa:ondrej/php package repo.
 ### Instruction:
@@ -6,7 +6,7 @@
 - Submit the content of /etc/apt/sources.list and the output of php -v command
 ---
 
- ### [Solution] 4
+ ### [Solution]() 4
 
 To install PHP 7.4 on your local Linux machine using the `ppa:ondrej/php` package repository, 
 **Add the `ppa:ondrej/php` Repository:**
