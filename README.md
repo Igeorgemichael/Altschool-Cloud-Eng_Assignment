@@ -4,9 +4,10 @@
 
 This repo contains documentation of all my [Altschool](https://engineering.altschoolafrica.com/programs/cloud-engineering) cloud engineering 
 
-`Tasks/Exercise`
+``` plaintext
+Tasks/Exercise
 
-`Assignments`
+Assignments
 
-`Projects`.
-
+Projects.
+```
