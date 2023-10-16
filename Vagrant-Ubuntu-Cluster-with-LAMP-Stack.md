@@ -1,0 +1,55 @@
+# [Assigment]()
+- ## Project Task: 
+  - **Deployment of Vagrant Ubuntu Cluster with LAMP Stack**
+
+- ## Objective:
+  - Develop a bash script to orchestrate the automated deployment of two Vagrant-based Ubuntu systems, designated as 'Master' and 'Slave',
+  - Provision an integrated LAMP stack on both systems.
+
+- ## Specifications:
+  - Infrastructure Configuration:
+  - Deploy two Ubuntu systems:
+  - Master Node: This node should be capable of acting as a control
+
+- ## User Management:
+     On the `Master node`:
+  - Create a user named altschool.
+  - Grant altschool user root (superuser) privileges.
+
+- ## Inter-node Communication:
+     Enable SSH key-based authentication:      
+     The Master node (altschool user) should seamlessly SSH into the Slave node without requiring a password.
+
+- ## Data Management and Transfer:
+     On initiation:
+  - Copy the contents of /mnt/altschool directory from the Master node to /mnt/altschool/slave on the Slave node.
+  - This operation should be performed using the altschool user from the Master node.
+
+- ## Process Monitoring:
+  - The Master node should display an overview of the Linux process management,
+  - showcasing currently running processes.
+
+- ## LAMP Stack Deployment:
+     Install a AMP (Apache, MySQL, PHP) stack on both nodes:
+  - Ensure Apache is running and set to start on boot.
+  - Secure the MySQL installation and initialize it with a default user and password.
+  - Validate PHP functionality with Apache.
+
+---
+[Deliverables:]()
+
+- ## Step 1: Set Up Your Environment
+
+
+
+
+
+
+
+
+
+
+
+
+
+
