@@ -150,7 +150,7 @@ The Ansible playbook consists of the configuration-file, Inventory, and the onsi
   private_key_file = ~/.ssh/id_rsa
   host_key_checking = false
   ```
-![ansible-cfg](https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b979cd4f-6959-4fde-bab6-22008ec7c036)
+<img width="700" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b979cd4f-6959-4fde-bab6-22008ec7c036">
 
 - Ansible Inventory
   ``` plaintext
@@ -364,13 +364,13 @@ The Ansible playbook consists of the configuration-file, Inventory, and the onsi
 - Laravel Homepage
 
   - The Master Node: 192.168.56.10
-<img width="1277" alt="Screenshot 2023-10-22 at 9 58 53 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/d723649b-1831-4e16-b1ee-b6329afdd233">
+<img width="700" alt="Screenshot 2023-10-22 at 9 58 53 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/d723649b-1831-4e16-b1ee-b6329afdd233">
 
   - The Slave Node: 192.168.56.11
-<img width="1266" alt="Screenshot 2023-10-23 at 4 58 48 AM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/3a0523af-4197-43ce-9487-2a6a4c1c2bf0">
+<img width="700" alt="Screenshot 2023-10-23 at 4 58 48 AM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/3a0523af-4197-43ce-9487-2a6a4c1c2bf0">
 
 - MySQL Data
-<img width="899" alt="Screenshot 2023-10-22 at 10 01 26 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/d631025a-aa47-47d4-bb11-484a768eed43">
+<img width="700" alt="Screenshot 2023-10-22 at 10 01 26 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/d631025a-aa47-47d4-bb11-484a768eed43">
 
 
 
