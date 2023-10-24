@@ -140,17 +140,24 @@ The Tools Needed To Run This:
 
 - Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml
 
+Upon the creation of the Master node and Slave node, on your work-station Type vagrant ssh with the machine name `germany` to gain access to the machine
 
+- Create a directory for the project
 
-- Open a Terminal: Open a terminal on your Ubuntu system.
-- Make the Script Executable: If the script is not already marked as executable, you need to do so. Navigate to the directory where your script is located and run the following command:
+  Inside the directory create a script file `stacks.sh`, this script will spins up the cloninig of Laravel Repos Master machine. then another stacks.sh this script provisions the installation of lamp stack on the master node and deploys laravel on the master node
+
+- Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml
+
+Create a file named stacks.sh script with nano or vim. then copy the original content of stacks.sh into it change ServerName on apache2 configuration to the IP address of the master node. Which is 192.168.56.10
+- change the ServerName to your IP address
+- In the .env change the USERNAME, DATABASE, and PASSWORD
 - Make some modifications to the `.env`:
-  - In the .env change the USERNAME, DATABASE, and PASSWORD
-  - Modify Mysql
-  - change the ServerName to your IP address
-  - modify the ansible config file
-  - on your terminal run the script with the argument `./stacks.sh michael michael19`
+- Modify Mysql
+- Make the Script Executable: If the script is not already marked as executable, you need to do so. Navigate to the directory where your script is located and run the following command:
+- on your terminal run the script with the argument `./stacks.sh michael michael19`
+After the script has ran successfully, type the IP address of the master machine on any browser Then page should load into a laravel Home-page.
 
+- modify the ansible config file
 
 
 
