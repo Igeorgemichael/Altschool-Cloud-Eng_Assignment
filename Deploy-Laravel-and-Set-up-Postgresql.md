@@ -22,11 +22,11 @@
 ### LAMP Stack:
   A LAMP stack is a popular open-source web development platform that consists of four key components, each of which plays a specific role in web application development. The term "LAMP" is an acronym that represents these four components:
 
-- **Linux**: Linux is the operating system that forms the foundation of the LAMP stack. It provides the environment for hosting web applications and serves as the server's underlying operating system. Linux is chosen for its stability, security, and versatility. Popular Linux distributions used in LAMP stacks include Ubuntu, CentOS, and Debian.
+- **Linux**: Linux is the operating system that forms the foundation of the LAMP stack. It provides the environment for hosting web applications and serves as the server's underlying operating system. Linux is chosen for its stability, security, and versatility.
 
 - **Apache**: Apache is the web server software in the LAMP stack. It's responsible for handling client requests and serving web content to users' web browsers. Apache is highly configurable and supports a wide range of web-related technologies. It's known for its reliability and widespread use in the web hosting industry.
 
-- **MySQL (or MariaDB)**: MySQL is the relational database management system (RDBMS) used in the LAMP stack for storing and managing data. It is known for its speed and reliability, making it a popular choice for web applications. MariaDB, a fork of MySQL, is often used as an alternative due to its open-source nature and enhanced performance.
+- **MySQL**: MySQL is the relational database management system (RDBMS) used in the LAMP stack for storing and managing data. It is known for its speed and reliability, making it a popular choice for web applications.
 
 - **PHP**: PHP is the server-side scripting language that enables the dynamic generation of web content and interactions with the database. It's a powerful language for web development and is widely used for creating web applications. PHP scripts are embedded within HTML and executed on the server, generating dynamic web pages.
 
@@ -44,11 +44,13 @@ Ansible is an open-source automation and configuration management tool that simp
 
 ### Ansible.cfg:
 - The ansible.cfg file is a configuration file used by Ansible to customize its behavior and settings. It is typically located in the /etc/ansible/ directory or in the current directory where Ansible is executed. Here's a brief explanation of the ansible.cfg file:    
+<img width="700" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b979cd4f-6959-4fde-bab6-22008ec7c036">
 
 - The ansible.cfg file is a valuable tool for tailoring Ansible's behavior to meet your specific automation needs. It provides flexibility, maintainability, and improved project organization by allowing you to define and document configuration settings at the project level.
 
 ### Ansible Inventory:
 - The Ansible inventory file is a critical component that defines the hosts and groups of hosts on which Ansible will operate. It is essentially a list of target hosts that Ansible will connect to and manage. 
+<img width="700" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/61e9e66b-7611-43c8-b2bb-5ba42182d988">
 
 - It provides a structured way to organize hosts, group them logically, set variables, and create a dynamic view of your environment. This flexibility makes Ansible well-suited for a wide range of automation tasks across various types of infrastructures.
 
@@ -128,6 +130,18 @@ This script creates two Ubuntu-based virtual machines, "Moscow" and "Germany," c
 
 - [ ] How To Run The Repo
 
+The Tools Needed To Run This:
+  - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+  - [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
+
+  - Create a directory for the project
+
+  Inside the directory create a script file `master-slave.sh`, this script will spins up the creation of both master and slave machine. then another stacks.sh this script provisions the installation of lamp stack on the master node and deploys laravel on the master node
+
+- Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml
+
+
+
 - Open a Terminal: Open a terminal on your Ubuntu system.
 - Make the Script Executable: If the script is not already marked as executable, you need to do so. Navigate to the directory where your script is located and run the following command:
 - Make some modifications to the `.env`:
@@ -136,6 +150,13 @@ This script creates two Ubuntu-based virtual machines, "Moscow" and "Germany," c
   - change the ServerName to your IP address
   - modify the ansible config file
   - on your terminal run the script with the argument `./stacks.sh michael michael19`
+
+
+
+
+
+
+
 
 ---
 
@@ -150,7 +171,6 @@ The Ansible playbook consists of the configuration-file, Inventory, and the onsi
   private_key_file = ~/.ssh/id_rsa
   host_key_checking = false
   ```
-<img width="700" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/b979cd4f-6959-4fde-bab6-22008ec7c036">
 
 - Ansible Inventory
   ``` plaintext
