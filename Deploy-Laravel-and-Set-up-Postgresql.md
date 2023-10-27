@@ -165,7 +165,8 @@ After the script has ran successfully, type the IP address of the master machine
 After the installation of Ansible, switch to a Root User `sudo su -`
 - generate a key that will aid ansible connection to the Slave Node seamlessly, run: `ssh-keygen`, when generating this ssh key do not include a password to this key.
 - copy the public key of the newly created ssh key into the Slave Authourized keys. open anew tab on your terminal and ssh into the slave machine
-- run the play onsite.yml
+- run the play onsite.yml: `ansible-playbook -i inventory onsite.yaml`
+After the play has ran successfully, type the IP address of the Slave machine on any browser The page should load into a laravel Home-page.
 
 
 ---
