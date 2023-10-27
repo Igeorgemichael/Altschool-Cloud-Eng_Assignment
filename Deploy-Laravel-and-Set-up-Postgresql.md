@@ -15,7 +15,7 @@
 
 ## [Solution]()
 
-- [ ] **What this repo is all about**
+- [ ] **What This Repo is All About**
 ### Laravel: 
   Laravel is a popular open-source PHP web application framework known for its elegant syntax, developer-friendly features, and robust set of tools for building modern web applications. It was created by Taylor Otwell and first released in 2011. Laravel follows the Model-View-Controller (MVC) architectural pattern and provides a range of features to simplify and speed up web development.
 
@@ -131,38 +131,41 @@ This script creates two Ubuntu-based virtual machines, "Moscow" and "Germany," c
 - [ ] How To Run The Repo
 
 The Tools Needed To Run This:
-  - [VirtualBox](https://www.virtualbox.org/wiki/Downloads)
+  - [VirtualBox](https://www.virtualbox.org/wiki)
   - [Vagrant](https://developer.hashicorp.com/vagrant/downloads)
 
   - Create a directory for the project
 
-  Inside the directory create a script file `master-slave.sh`, this script will spins up the creation of both master and slave machine. then another stacks.sh this script provisions the installation of lamp stack on the master node and deploys laravel on the master node
+  Inside the directory create a script file `master-slave.sh`, this script will spins up the creation of both master and slave machine. then another [`stacks.sh`] this script provisions the installation of lamp stack on the master node and deploys laravel on the master node.
 
-- Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml
+- Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml.
 
-Upon the creation of the Master node and Slave node, on your work-station Type vagrant ssh with the machine name `germany` to gain access to the machine
+Upon the creation of the Master node and Slave node, on your work-station Type vagrant ssh with the machine name `germany` to gain access to the machine.
 
-- Create a directory for the project
+- Create a directory for the project on the Master Machine
 
-  Inside the directory create a script file `stacks.sh`, this script will spins up the cloninig of Laravel Repos Master machine. then another stacks.sh this script provisions the installation of lamp stack on the master node and deploys laravel on the master node
+- Inside the directory create a sub-folder `ansible-playbook` inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml.
 
-- Inside the directory create a sub-folder ‘ansible-playbook’ inside the ansible-playbook create the following files: ansible.cfg, inventory, onsite.yml
+  Inside the directory create a script file `stacks.sh` with nano or vim, then copy the original content of stacks.sh into it change ServerName on apache2 configuration to the IP address of the master node. Which is 192.168.56.10 this script will spins up the cloninig of Laravel Repos and provisions the installation of Lamp stack and configures Apache on the Master Machine
 
-Create a file named stacks.sh script with nano or vim. then copy the original content of stacks.sh into it change ServerName on apache2 configuration to the IP address of the master node. Which is 192.168.56.10
-- change the ServerName to your IP address
+- Change the ServerName to your IP address
 - In the .env change the USERNAME, DATABASE, and PASSWORD
 - Make some modifications to the `.env`:
 - Modify Mysql
 - Make the Script Executable: If the script is not already marked as executable, you need to do so. Navigate to the directory where your script is located and run the following command:
 - on your terminal run the script with the argument `./stacks.sh michael michael19`
-After the script has ran successfully, type the IP address of the master machine on any browser Then page should load into a laravel Home-page.
+After the script has ran successfully, type the IP address of the master machine on any browser The page should load into a laravel Home-page.
 
-- modify the ansible config file
-
-
-
-
-
+### ANSIBLE ON SLAVE MACHINE
+- Open the ansible play-book folder on the Master Node, the folder contains
+  - Inventory file,
+  - Ansible.cfg and
+  - Onsite.yml
+- Install Ansible on the Master Node, run this code to install ansible: `sudo apt install ansible -y`.
+After the installation of Ansible, switch to a Root User `sudo su -`
+- generate a key that will aid ansible connection to the Slave Node seamlessly, run: `ssh-keygen`, when generating this ssh key do not include a password to this key.
+- copy the public key of the newly created ssh key into the Slave Authourized keys. open anew tab on your terminal and ssh into the slave machine
+- run the play onsite.yml
 
 
 ---
