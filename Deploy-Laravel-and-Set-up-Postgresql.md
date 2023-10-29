@@ -403,7 +403,9 @@ The Ansible playbook consists of the configuration-file, Inventory, and the onsi
 - MySQL Data
 <img width="700" alt="Screenshot 2023-10-22 at 10 01 26 PM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/d631025a-aa47-47d4-bb11-484a768eed43">
 
-
+- Cronjob
+ <img width="700" alt="Screenshot 2023-10-28 at 12 13 41 AM" src="https://github.com/Igeorgemichael/Altschool-Cloud-Eng_Assignment/assets/125099848/e84c1838-dc4c-481c-813b-beeb9416f11a">
+ 
 
 
 
